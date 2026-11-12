@@ -56,13 +56,13 @@ export const company = {
   phoneDisplay: "+234 808 910 4995",
   phoneHref: "+2348089104995",
   whatsapp: "2348089104995",
-  email: import.meta.env.VITE_COMPANY_EMAIL || "hello@namijeetechnologies.com",
+  email: import.meta.env.VITE_COMPANY_EMAIL || "namijeetechnologies@gmail.com",
   location: "Nigeria",
-  hours: "Mon – Fri · 9:00am – 5:00pm WAT",
+  hours: "Mon – Fri · 8:00am – 8:00pm WAT",
   socials: {
     facebook: "https://www.facebook.com/namijeetechnologies",
     instagram: "https://www.instagram.com/namijeetechnologies",
-    x: "https://x.com/namijeetech",
+    x: "https://x.com/namijeetechnologies",
     youtube: "https://www.youtube.com/@namijeetechnologies",
   },
 };

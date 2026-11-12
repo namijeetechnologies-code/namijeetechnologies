@@ -100,8 +100,8 @@ export type Service = {
 export const services: Service[] = [
   {
     id: "web",
-    title: "Website Design & Development",
-    shortTitle: "Website Development",
+    title: "Frontend Web Design & Development",
+    shortTitle: "Frontend Development",
     icon: Globe2,
     description: "Modern, responsive and SEO-friendly websites that perform.",
     bullets: [
@@ -114,8 +114,8 @@ export const services: Service[] = [
   },
   {
     id: "video",
-    title: "Video Editing & Motion Graphics",
-    shortTitle: "Video & Motion",
+    title: "AI Video & Motion Graphics",
+    shortTitle: "AI Video & Motion",
     icon: MonitorSmartphone,
     description: "Engaging video content that brings your ideas to life.",
     bullets: [
@@ -214,7 +214,7 @@ export type Project = {
   id: string;
   title: string;
   client: string;
-  category: "Web Design" | "Graphic Design" | "Video Editing" | "Branding" | "Landing Page";
+  category: "Web Design" | "Graphic Design" | "AI Video" | "Branding" | "Landing Page";
   image: string;
   summary: string;
   description: string;

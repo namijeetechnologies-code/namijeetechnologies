@@ -227,13 +227,13 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "meridian",
-    title: "Meridian Commerce",
+    title: "Business Management Web",
     client: "Meridian Retail",
-    category: "Web Design",
+    category: "Frontend Web Design",
     image: workWeb,
     summary: "A conversion-focused online store for a growing retail brand.",
     description:
-      "We rebuilt Meridian's online store around a mobile-first catalogue, a cleaner checkout and a content system the team can update without a developer. Page load times dropped and enquiries started arriving from organic search within weeks.",
+      "We rebuilt Namijee's online store around a mobile-first catalogue, a cleaner checkout and a content system the team can update without a developer. Page load times dropped and enquiries started arriving from organic search within weeks.",
     deliverables: ["UX & UI design", "Responsive build", "Checkout integration", "SEO foundations"],
     year: "2025",
     accent: "from-electric to-cyanbrand",
@@ -241,8 +241,8 @@ export const projects: Project[] = [
   },
   {
     id: "aurora",
-    title: "Aurora Brand Suite",
-    client: "Aurora Foods",
+    title: "A.A Shirawa Global Concept",
+    client: "A.A Shirawa",
     category: "Branding",
     image: workBrand,
     summary: "Identity design and print collateral for a premium food brand.",
@@ -255,9 +255,9 @@ export const projects: Project[] = [
   },
   {
     id: "cinematic",
-    title: "Cinematic Product Edit",
-    client: "Studio Nova",
-    category: "Video Editing",
+    title: "AI Video Generation",
+    client: "Cinematic video",
+    category: "Video generation/editing",
     image: workVideo,
     summary: "A polished launch film with motion graphics and sound design.",
     description:
@@ -269,7 +269,7 @@ export const projects: Project[] = [
   },
   {
     id: "bold",
-    title: "Bold Futures Campaign",
+    title: "Visual Reality",
     client: "Bold Futures",
     category: "Graphic Design",
     image: workPoster,
